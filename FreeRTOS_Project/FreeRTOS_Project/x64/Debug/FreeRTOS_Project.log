@@ -1,0 +1,5 @@
+﻿  main.c
+C:\repo\WM392\FreeRTOS_Project\FreeRTOS_Project\main.c(78,30): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'TaskFunction_t'
+C:\repo\WM392\FreeRTOS_Project\FreeRTOS_Project\main.c(79,35): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'TaskFunction_t'
+C:\repo\WM392\FreeRTOS_Project\FreeRTOS_Project\main.c(80,29): warning C4113: 'void (__cdecl *)(void)' differs in parameter lists from 'TaskFunction_t'
+  FreeRTOS_Project.vcxproj -> C:\repo\WM392\FreeRTOS_Project\FreeRTOS_Project\x64\Debug\FreeRTOS_Project.exe

@@ -1,0 +1,219 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31105.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7FE6E9CC0 -il C:\\Users\\jyoung16\\AppData\\Local\\Temp\\_CL_168ef5baast -typedil -f heap_4.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131105 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\heap_4.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\repo\\WM392\\FreeRTOS_Project\\FreeRTOS_Project -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/timers.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "423d8e5c8083d0eb95aa554493c23b4746263176edb0313e6360f539a7981b5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/freertos.h"
+          },
+          "hashes": {
+            "sha-256": "1b821b20cda3a2da1f23df6301e55692491aa06fe7802a6c101e9050bf6e6836"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/freertosconfig.h"
+          },
+          "hashes": {
+            "sha-256": "74e978afd611875196db8497cc3825a869fb282a99b46ccbd206edc11c0891ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/projdefs.h"
+          },
+          "hashes": {
+            "sha-256": "2c5adb8966188f2db65492cc26020b4354befab6842dc966d0a42f3dc6858d38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/portable.h"
+          },
+          "hashes": {
+            "sha-256": "cef17f5d93bf6423adba9785cbd0f85e453aa80c3d3f725a2866bae8b99c65b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/deprecated_definitions.h"
+          },
+          "hashes": {
+            "sha-256": "ac4d01a500151556b7973c69d4b8077622c524cfefb09a3ccbc08d949ce8488d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/portmacro.h"
+          },
+          "hashes": {
+            "sha-256": "40649a12562ff187d47b612591da00d69fb616734db2e6c841c75c93aa745be4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/mpu_wrappers.h"
+          },
+          "hashes": {
+            "sha-256": "973a6bbafc1b64157c30699e1294dc1c4f536b17da8e1a7f0cb20a50283e2157"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/task.h"
+          },
+          "hashes": {
+            "sha-256": "b0610dc1a3e35e988a19b493cde3c96123dbae3bedfcff48a8f6df04df4cff65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/list.h"
+          },
+          "hashes": {
+            "sha-256": "36a0443484eb62cf78337dc29bbc9430e25f3e290aee112aa70a240568ecf386"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/queue.h"
+          },
+          "hashes": {
+            "sha-256": "09ca388712463be39b1fb768a720390bf3f9ef5e990f22cf2ffb6e4e8a4d047a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/timers.h"
+          },
+          "hashes": {
+            "sha-256": "a2394c90ee22e03fef763df9652af17b42bb86217cc4994135352353203c73ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/tasks.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "626b2180ad8eb64d5f9f601641becee03bcf3694d03a1ad13e37e7235408bdf3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/stackmacros.h"
+          },
+          "hashes": {
+            "sha-256": "8de3f81b2ab091d3928dd41d92a1efa49ff14e3f0fbfac037ac70589af90e202"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/supporting_functions.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "7eff7b8ce568d4644055e5cb08ca7afe4aa23354db67a532627bb9ae2ea7d5d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/repo/WM392/FreeRTOS_Project/FreeRTOS_Project/queue.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fb175135c28fb86be25177fcc9f681dc22f3a2b1850f9a19b608a15661aa57bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/repo/WM392/FreeRTOS_Project/FreeRTOS_Project/port.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "55d70c98f02e04ebf9d4928438f2ed50f809d127d6473b1332ebb4723c792747"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/main.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "5792f5e63621688c93ef6ffb84746352b9cde15d845e79d055fa122c4ed879d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/wm392.h"
+          },
+          "hashes": {
+            "sha-256": "65f8b38a5064356ac833eb80154edfd1d4db799ca77da718ee8c0f628aed27d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/list.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "c2fc08cedee309c4456c37ddc857b23ee35f842de235db509f65474298da1081"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/repo/wm392/freertos_project/freertos_project/heap_4.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "60ff2c3201cc60d22ef64b2c930f42514912a9778089d3597b7f17e234dba6a7"
+          }
+        }
+      ]
+    }
+  ]
+}

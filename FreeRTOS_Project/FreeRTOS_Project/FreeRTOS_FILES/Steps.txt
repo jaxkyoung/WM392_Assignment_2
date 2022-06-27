@@ -1,0 +1,20 @@
+1.Download and unzip "FreeRTOS_FILES"
+2.Open Visual Studio
+3."Create New Project" >> "Console app"
+4.Give Project name [mine is SCRATCH_1]
+5.Tick "Place solution and project in same directory" >> "Create"
+6.Go to "Solution explorer" >> "Source Files"
+7.Delete ".cpp" file
+8.click on "switch view" in solution explorer and select "folder view"
+9.Right click on folder >> open folder in file explorer
+10. press "Wndows key + E" >> open folder "FreeRTOS_FILES"
+11. Copy content of "FreeRTOS_FILES" 
+12.Paste it in current working directory [we have opened it in step 9]
+13.Open Visual Studio ,go to solution explorer >> switch view >>SCRATCH_1.sln
+14.Click on "show all files"
+15.select all files with "Red block sign"
+16.Right click >> Include in Project
+17.Click on "show all files" >> solution explorer >> switch view >>SCRATCH_1.sln
+18.Right click on "Source File" >> "Add" >> "New item"
+19.Name : "main.c" >> Add
+20.And now you are ready to go with FreeRTOS simulation............................
